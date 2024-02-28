@@ -1,0 +1,116 @@
+
+/* No cambiar los estilos que aquí te dejo, solo debes complementar según las instrucciones
+del examen */
+@import url('https://fonts.googleapis.com/css2?family=Babylonica&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Babylonica&family=Gloock&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Babylonica&family=Gloock&family=Mynerve&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.contenedor{
+    margin:auto ;
+    padding: 80px;
+    background-color: lightblue;
+    .h1{padding top: 30px;
+    padding bottom: 20px;}
+    .h2{
+        padding top: 30px;
+    padding bottom: 20px;
+    
+     }
+}
+
+.background{
+ 
+    background-size: cover;
+    background-position: center;
+width: 100%;
+    }
+
+.contenido{
+       
+        padding-top:30px ;
+        padding-left:40px ;
+        padding-right: 40px;
+        text-align: center;
+        p{
+            text-align: justify;
+            font-size: 25px;
+            width: 100%;
+        }
+        h2{
+            color: purple;
+
+        }
+
+     ol{
+        text-align: left;
+        font-size: 25px;
+        padding: 40px;
+     }   
+     ul{
+        text-align: left;
+        font-size: 25px;
+        padding: 40px;
+     }
+}
+
+.encabezado{
+          padding: 0.1px;  
+          height: 400px;
+          background-image:url("../img/imagen1.jpg") ;
+          h2{
+            color: orangered;
+            height: 400px;
+            margin-left: 50px;
+            font-size:30px ;
+            line-height: 400px;
+            font-family: "Gloock",serif;
+
+          }
+    
+        }
+    
+.usos{background-image: url("../img/imagen2.jpeg");
+    height: 400px;
+    color: aliceblue;
+    line-height:600px;
+    text-align: center;
+
+        }
+      
+.sintaxis{
+        
+        line-height: 100vh;
+        background-image: url("../img/imagen3.jpg");
+    height: 400px;
+    color: white;
+    line-height: 100vh;
+    }
+       
+.datos{
+    background-color: darkviolet;
+    color: aliceblue;
+    font-family: "mynerve",cursive;
+    font-size: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
+    border: cornsilk, 10px ;
+    border-style: double;
+}
+    
+h4{
+        font-size: 24px;
+        font-family: 'Gloock', serif;
+        line-height: 500px;
+        text-align: center;
+    }
